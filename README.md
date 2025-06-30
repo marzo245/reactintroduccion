@@ -33,10 +33,11 @@ npm install
 
 ## 🎯 Scripts Disponibles
 
-- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run dev` - Inicia el servidor de desarrollo de React (puerto 5173)
 - `npm run build` - Construye la aplicación para producción
 - `npm run preview` - Previsualiza la build de producción
-- `npm run lint` - Ejecuta el linter para verificar el código
+- `npm run lint` - Ejecuta ESLint para verificar la calidad del código
+- `mvn spring-boot:run` (en `/back`) - Inicia el servidor backend (puerto 8080)
 
 ## 🚀 Ejecución
 
