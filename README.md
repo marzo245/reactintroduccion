@@ -2,6 +2,12 @@
 
 Este proyecto está diseñado para seguir una guía completa de introducción a React integrado con Spring Boot, desde los conceptos básicos hasta la comunicación entre frontend y backend.
 
+## 👨‍💻 Autor
+
+**Diego Chicuazuque**  
+GitHub: [@marzo245](https://github.com/marzo245)  
+Repositorio: [reactIntroduccion](https://github.com/marzo245/reactIntroduccion)
+
 ## 📋 Requisitos Previos
 
 - **Java 17** o superior
@@ -60,42 +66,57 @@ El frontend estará disponible en [http://localhost:5173](http://localhost:5173)
 
 ```
 reactIntroduccion/
-├── back/                  # Backend Spring Boot
+├── back/                           # Backend Spring Boot
 │   ├── src/
 │   │   └── main/
-│   │       ├── java/      # Código fuente Java
-│   │       └── resources/ # Archivos de configuración
-│   ├── .gitignore        # Exclusiones del backend
-│   └── pom.xml           # Dependencias Maven
+│   │       ├── java/               # Código fuente Java
+│   │       └── resources/          # Archivos de configuración
+│   ├── .gitignore                  # Exclusiones del backend
+│   └── pom.xml                     # Dependencias Maven
 ├── public/
 │   └── vite.svg
 ├── src/
 │   ├── assets/
 │   │   └── react.svg
-│   ├── components/        # Componentes reutilizables
-│   ├── ejemplos/         # Ejemplos prácticos de la guía
-│   ├── App.jsx           # Componente principal
+│   ├── components/                 # Componentes reutilizables
+│   ├── ejemplos/                   # Ejemplos prácticos de la guía
+│   ├── App.jsx                     # Componente principal
 │   ├── App.css
 │   ├── index.css
-│   └── main.jsx          # Punto de entrada
-├── .github/              # Instrucciones de Copilot
-├── .vscode/              # Tareas de VS Code
+│   └── main.jsx                    # Punto de entrada
+├── .github/                        # Instrucciones de Copilot
+├── .vscode/                        # Tareas de VS Code
 ├── index.html
 ├── package.json
-└── vite.config.js
+├── vite.config.js
+├── LICENSE                         # Licencia MIT
+└── README.md                       # Este archivo
 ```
+
+### 📂 Archivos y Carpetas Principales
+
+- **[`back/`](back/)** - Backend Spring Boot con API REST
+  - [`pom.xml`](back/pom.xml) - Configuración de dependencias Maven
+  - [`application.properties`](back/src/main/resources/application.properties) - Configuración del backend
+- **[`src/`](src/)** - Código fuente del frontend React
+  - [`App.jsx`](src/App.jsx) - Componente principal de la aplicación
+  - [`components/`](src/components/) - Componentes reutilizables
+  - [`ejemplos/`](src/ejemplos/) - Ejemplos educativos paso a paso
+- **[`package.json`](package.json)** - Dependencias y scripts del frontend
+- **[`vite.config.js`](vite.config.js)** - Configuración de Vite
+- **[`LICENSE`](LICENSE)** - Licencia MIT del proyecto
 
 ## 📚 Contenido de la Guía
 
 ### Ejemplos Básicos de React
-1. **Primer Componente** - Crear tu primer componente en React
-2. **JSX** - Sintaxis JSX y uso de variables
-3. **Props** - Pasar datos entre componentes
-4. **useState** - Manejo de estado en componentes
-5. **Eventos** - Manejo de eventos del usuario
-6. **Listas** - Renderizado de listas y elementos dinámicos
-7. **Renderizado Condicional** - Mostrar elementos según condiciones
-8. **Integración con API** - Conectando React con Spring Boot
+1. **[Primer Componente](src/ejemplos/01-PrimerComponente.jsx)** - Crear tu primer componente en React
+2. **[JSX](src/ejemplos/02-EjemploJSX.jsx)** - Sintaxis JSX y uso de variables
+3. **[Props](src/ejemplos/03-EjemploProps.jsx)** - Pasar datos entre componentes
+4. **[useState](src/ejemplos/04-EjemploEstado.jsx)** - Manejo de estado en componentes
+5. **[Eventos](src/ejemplos/05-EjemploEventos.jsx)** - Manejo de eventos del usuario
+6. **[Listas](src/ejemplos/06-EjemploListas.jsx)** - Renderizado de listas y elementos dinámicos
+7. **[Renderizado Condicional](src/ejemplos/07-EjemploCondicional.jsx)** - Mostrar elementos según condiciones
+8. **[Integración con API](src/ejemplos/08-EjemploAPI-correcto.jsx)** - Conectando React con Spring Boot
 
 ## 🔗 Comunicación Frontend-Backend
 
@@ -151,5 +172,33 @@ El **Ejemplo 8** demuestra la integración entre React y Spring Boot:
 3. Verifica que no haya errores CORS en la consola del navegador
 
 ---
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT - ver el archivo [LICENSE](LICENSE) para más detalles.
+
+### MIT License
+
+```
+Copyright (c) 2025 Diego Chicuazuque (@marzo245)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+```
 
 ¡Feliz aprendizaje con React y Spring Boot! 🎉

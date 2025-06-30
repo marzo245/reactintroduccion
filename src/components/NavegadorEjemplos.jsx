@@ -9,7 +9,7 @@ import EjemploEstado from '../ejemplos/04-EjemploEstado';
 import EjemploEventos from '../ejemplos/05-EjemploEventos';
 import EjemploListas from '../ejemplos/06-EjemploListas';
 import EjemploCondicional from '../ejemplos/07-EjemploCondicional';
-import EjemploAPI from '../ejemplos/08-EjemploAPI';
+import EjemploAPI from '../ejemplos/08-EjemploAPI-correcto';
 
 function NavegadorEjemplos() {
   const [ejemploActivo, setEjemploActivo] = useState('intro');
